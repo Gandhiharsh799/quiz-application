@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+   display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.img{
+    width: 6rem;
+    height: 6rem;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid rgb(73, 72, 72);
+}
+.heading{
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: rgb(73, 72, 72);
+    margin: 0;
+}

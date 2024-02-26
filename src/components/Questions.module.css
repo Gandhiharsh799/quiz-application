@@ -1,0 +1,39 @@
+.card{
+    margin-top: 4rem;
+  padding: 2rem;
+  background: linear-gradient(180deg, #ffebcd 0%, #b99a6b 100%);
+  border-radius: 8px;
+  /* box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6); */
+  box-shadow: 1px 1px 8px 4px rgba(12, 5, 32, 0.6);
+  text-align: center;
+}
+.container{
+    padding: 2px 16px;
+    margin: 16px auto;
+}
+
+
+.container h2{
+    color: rgb(73, 72, 72);
+}
+.answers{
+    list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  width: 90%;
+ 
+}
+.answers button{
+    display: inline-block;
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  margin: 0.2rem;
+}
